@@ -1,9 +1,11 @@
-
 # GSSAPI playground
 
-Get Ruby 1.9.3
+Required deps for building Ruby
 
-    sudo apt-get install readline6-dev libssl-dev
+    sudo apt-get install build-essential libreadline6-dev libssl-dev
+
+Get Ruby 1.9.3
+    
     curl -L get.rvm.io | bash -s stable
     cat "source ~/.rvm/scripts/rvm" >> ~/.bashrc
 
